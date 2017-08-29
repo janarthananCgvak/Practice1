@@ -4,6 +4,7 @@ namespace Practice1.Models
 {
     public class ApplicationContext :DbContext
     {
+        //this is referred throughout the project
         public ApplicationContext(DbContextOptions opts): base(opts)
         {
         }
